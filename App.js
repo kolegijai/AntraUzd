@@ -33,7 +33,26 @@ export default class App extends Component<{}> {
        clr4 : 'transparent'
       }
     }
-
+    changeClr0()
+    {
+      var backgroundColor = 'green';
+      this.setState({clr1: backgroundColor})
+    }
+    changeClr11()
+    {
+      var backgroundColor = 'green';
+      this.setState({clr2: backgroundColor})
+    }
+    changeClr12()
+    {
+      var backgroundColor = 'green';
+      this.setState({clr3: backgroundColor})
+    }
+    changeClr13()
+    {
+      var backgroundColor = 'green';
+      this.setState({clr4: backgroundColor})
+    }
 
 
 
